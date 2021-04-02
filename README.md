@@ -53,7 +53,7 @@ python3 -m WifiDeauth.WifiDeauth -i "wlan0"
 
 ## Links
  - [Github Page](https://github.com/mauricelambert/WifiDeauth)
- - [Documentation WifiDeauth](https://mauricelambert.github.io/info/python/security/WifiDeauth/WifiDeauth.html)
+ - [Documentation WifiDeauth](https://mauricelambert.github.io/info/python/security/WifiDeauth.html)
  - [Download as python executable](https://mauricelambert.github.io/info/python/security/WifiDeauth.pyz)
  - [Pypi package](https://pypi.org/project/WifiDeauth/)
 
