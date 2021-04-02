@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: WifiDeauth
-Version: 0.0.1
+Version: 0.0.2
 Summary: This package implement a Dos attack on Wifi named Deauth.
 Home-page: https://github.com/mauricelambert/WifiDeauth
 Author: Maurice Lambert
@@ -61,7 +61,7 @@ Description: # WifiDeauth
         
         ## Links
          - [Github Page](https://github.com/mauricelambert/WifiDeauth)
-         - [Documentation WifiDeauth](https://mauricelambert.github.io/info/python/security/WifiDeauth/WifiDeauth.html)
+         - [Documentation WifiDeauth](https://mauricelambert.github.io/info/python/security/WifiDeauth.html)
          - [Download as python executable](https://mauricelambert.github.io/info/python/security/WifiDeauth.pyz)
          - [Pypi package](https://pypi.org/project/WifiDeauth/)
         

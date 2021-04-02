@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 setup(
     name = 'WifiDeauth',
  
-    version = "0.0.1",
+    version = "0.0.2",
     packages = find_packages(include=["WifiDeauth"]),
     install_requires = ['scapy'],
 

