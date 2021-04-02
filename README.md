@@ -56,6 +56,7 @@ python3 -m WifiDeauth.WifiDeauth -i "wlan0"
  - [Documentation WifiDeauth](https://mauricelambert.github.io/info/python/security/WifiDeauth.html)
  - [Download as python executable](https://mauricelambert.github.io/info/python/security/WifiDeauth.pyz)
  - [Pypi package](https://pypi.org/project/WifiDeauth/)
+ - [Bash Script to launch WifiDeauth on Kali\Debian](https://mauricelambert.github.io/info/bash/LaunchWifiDeauth.sh)
 
 ## Licence
 Licensed under the [GPL, version 3](https://www.gnu.org/licenses/).
