@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+WifiDeauth/WifiDeauth.py
+WifiDeauth/__init__.py
+WifiDeauth/__main__.py
+WifiDeauth.egg-info/PKG-INFO
+WifiDeauth.egg-info/SOURCES.txt
+WifiDeauth.egg-info/dependency_links.txt
+WifiDeauth.egg-info/entry_points.txt
+WifiDeauth.egg-info/requires.txt
+WifiDeauth.egg-info/top_level.txt
